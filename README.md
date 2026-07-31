@@ -1,26 +1,28 @@
 # 🎥 YouTube Sentiment Analysis
 
-An end-to-end YouTube Sentiment Analysis project that combines **Machine Learning**, **Power BI**, and **Streamlit** to analyze YouTube video engagement and audience sentiment through an interactive dashboard and web application.
+An end-to-end YouTube Sentiment Analysis project that combines **Machine Learning**, **Power BI**, and **Streamlit** to analyze YouTube video performance and audience sentiment.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project focuses on analyzing YouTube data to gain insights into video performance and audience sentiment.
+This project analyzes YouTube data using Machine Learning techniques and presents the results through an interactive Power BI dashboard and a Streamlit web application.
 
-The project includes:
+## Project Workflow
 
+- Data Collection
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
 - Sentiment Analysis
 - Feature Engineering
-- Machine Learning Model Training
-- Interactive Power BI Dashboard
-- Streamlit Web Application
+- Machine Learning Model (SVM)
+- Model Evaluation
+- Interactive Dashboard
+- Streamlit Deployment
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -32,67 +34,82 @@ The project includes:
 
 ---
 
-## 📊 Dashboard Preview
+# 📊 Dashboard Preview
 
-### Overview
-![Overview](screenshots/dashboard1.jpg)
+## Overview
 
-### Sentiment Analysis
-![Sentiment Analysis](screenshots/dashboard2.jpg)
-
-### Correlation Analysis
-![Correlation](screenshots/dashboard3.jpg)
-
-### Team Members
-![Team Members](screenshots/dashboard4.jpg)
+![Overview](screenshots/dashboard1.jpeg)
 
 ---
 
-## 🚀 Features
+## Sentiment Analysis
 
-- Interactive Dashboard
-- Sentiment Classification
+![Sentiment Analysis](screenshots/dashboard2.jpeg)
+
+---
+
+## Correlation Analysis
+
+![Correlation Analysis](screenshots/dashboard3.jpeg)
+
+---
+
+## Team Members
+
+![Team Members](screenshots/dashboard4.jpeg)
+
+---
+
+# 🚀 Features
+
+- Interactive Power BI Dashboard
+- Sentiment Analysis
 - Correlation Analysis
-- KPI Cards
+- Machine Learning Prediction (SVM)
 - Dynamic Filters
-- Machine Learning Prediction
-- User-Friendly Interface
+- KPI Cards
+- Streamlit Web Application
 
 ---
 
-## 📂 Project Structure
+# 📂 Repository Structure
 
-```
-YouTube-Sentiment-Analysis
+```text
+YouTube-Sentiment-Analysis/
 │
 ├── screenshots/
+│   ├── dashboard1.jpeg
+│   ├── dashboard2.jpeg
+│   ├── dashboard3.jpeg
+│   └── dashboard4.jpeg
+│
 ├── app.py
-├── Final_Project_NTI.ipynb
+├── YouTube_Sentiment_Analysis.ipynb
+├── Youtube_Data_Final.csv
 ├── svm_model.pkl
 ├── tfidf_vectorizer.pkl
 ├── label_encoder.pkl
 ├── requirements.txt
-├── Youtube_Data_Final.xlsx
 └── README.md
 ```
 
 ---
 
-## ▶️ Run the Project
+# ▶️ Run Locally
 
-1. Clone the repository
+Clone the repository
 
 ```bash
 git clone https://github.com/your-username/YouTube-Sentiment-Analysis.git
 ```
 
-2. Install the required packages
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application
+Run the Streamlit application
 
 ```bash
 streamlit run app.py
@@ -100,7 +117,7 @@ streamlit run app.py
 
 ---
 
-## 👥 Team Members
+# 👥 Team Members
 
 - Wael Ayman
 - Fares Hesham
@@ -108,4 +125,6 @@ streamlit run app.py
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!
+# ⭐ Support
+
+If you found this project useful, don't forget to ⭐ the repository.
